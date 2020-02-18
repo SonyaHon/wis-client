@@ -1,0 +1,20 @@
+{
+	"name"           : "wis-client",
+	"version"        : "1.0.0",
+	"main"           : "index.js",
+	"license"        : "MIT",
+	"private"        : true,
+	"scripts"        : {
+		"postinstall": "yarn --cwd src/frontend install",
+		"dev-front"  : "yarn --cwd src/frontend build-watch",
+		"dev-build"  : "tsc --watch",
+		"dev-back"   : "nodemon -w dist dist/index.js"
+	},
+	"dependencies"   : {
+		"wis-core": "^0.0.1"
+	},
+	"devDependencies": {
+		"typescript": "^3.7.5",
+		"nodemon"   : "^2.0.2"
+	}
+}

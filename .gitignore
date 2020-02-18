@@ -1,0 +1,6 @@
+node_modules
+.idea
+dist
+src/frontend/node_modules
+src/frontend/src/plugins/api.doc.js
+src/frontend/src/plugins/scheme.json
